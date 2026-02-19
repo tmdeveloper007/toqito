@@ -85,6 +85,7 @@ sphinx_gallery_conf = {
         'binderhub_url': 'https://mybinder.org',
         'dependencies': './requirements.txt',
         'use_jupyter_lab': True,
+        'notebooks_dir': 'auto_examples',
     },
 }
 
