@@ -83,7 +83,7 @@ sphinx_gallery_conf = {
         'repo': 'toqito',
         'branch': 'master',
         'binderhub_url': 'https://mybinder.org',
-        'dependencies': '../pyproject.toml',
+        'dependencies': './requirements.txt',
         'use_jupyter_lab': True,
     },
 }
