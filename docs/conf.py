@@ -78,6 +78,14 @@ sphinx_gallery_conf = {
     "line_numbers": True,  # add line numbers
     "download_all_examples": False,
     "ignore_pattern": r"__init__\.py",
+    'binder': {
+        'org': 'vprusso',
+        'repo': 'toqito',
+        'branch': 'master',
+        'binderhub_url': 'https://mybinder.org',
+        'dependencies': '../pyproject.toml',
+        'use_jupyter_lab': True,
+    },
 }
 
 autoapi_options = [
