@@ -62,7 +62,7 @@ DOCS_FAST = bool(os.environ.get("TOQITO_DOCS_FAST"))
 
 sphinx_gallery_conf = {
     "examples_dirs": "examples",  # Path to example scripts
-    "gallery_dirs": "auto_examples",  # Output directory for generated example galleries
+    "gallery_dirs": "notebooks/auto_examples",  # Output directory for generated example galleries
     "subsection_order": ExplicitOrder(
         [
             "examples/basics",
@@ -85,7 +85,7 @@ sphinx_gallery_conf = {
         'binderhub_url': 'https://mybinder.org',
         'dependencies': './requirements.txt',
         'use_jupyter_lab': True,
-        'notebooks_dir': 'auto_examples',
+        'notebooks_dir': 'docs/examples',
     },
 }
 
